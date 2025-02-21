@@ -1,0 +1,22 @@
+project:
+  type: website
+  render:
+    - about.qmd
+    - index.qmd
+
+website:
+  title: "Atelier SDC"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
